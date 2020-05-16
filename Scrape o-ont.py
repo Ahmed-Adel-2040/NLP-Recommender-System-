@@ -64,51 +64,7 @@ for page in range(286,length):
             time.sleep(1)
     driver.close()
     
-   
-    #done
-#    job_Name=driver.find_element_by_xpath("//span[contains(@class, 'titleb')]").text
-#    #done
-#    #Last_Update=driver.find_element_by_xpath("//div[contains(@class, 'updates')]").text
-#    #done
-#    job_Description=driver.find_element_by_xpath('/html/body/div/div[4]/div/p[1]').text
-#    #done
-#    sample_Of_Report=driver.find_element_by_xpath('/html/body/div/div[4]/div/p[2]').text
-#    #done
-#    detailsKey=driver.find_element_by_xpath("//p[contains(@class, 'sm')]").text
-#    
-#    x=detailsKey.split('|')
-#    detais=[]
-#    for m in x:
-#        m=m.replace(" ", "") 
-#        detais.append(m)
-#    
-        
-    #values=[]
-    #record_Dictionary={}
-    #recodList=[]
-   
-            
-        
-        
-    
-    
-#//*[@id="wrapper_ToolsUsed"]/h2/span/a[2]
-#//*[@id="wrapper_TechnologySkills"]/h2/span/a[2]        
-#        for sub in subs:
-#            subKeys.append(sub.text)
-#    
-#    record_Dictionary[key]=subKeys
-#    
-    
-#        value=element.find_elements_by_xpath("//td[contains(@class, 'report2')]")
-#        for v in value:
-#            values.append(v.text)
-
-
-
-
-
-    
+ 
 
 #sohwMoreButtons=driver.find_elements_by_xpath("//div[contains(@class, 'collapse short')]")
 #driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
